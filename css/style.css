@@ -1,0 +1,247 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:;
+}
+.wrap-all{
+    height:auto;
+    width:100%;
+   
+    
+}
+.wrap{
+    width:960px;
+    margin:0 auto;
+    display:block;
+}
+
+/*=======================================*/
+/*========= header section.==============*/
+/*=======================================*/
+
+.header-bg{
+    background-color:orangered;
+    border-bottom:5px solid yellow;
+}
+.head{
+    width:958px;
+    background-color:orangered;
+    border-left:1px solid rgb(255, 187, 0);
+    margin-top:20px;
+    border-right:1px solid rgb(209, 255, 4);
+}
+.head h1{
+    color:rgb(238, 177, 158);
+    text-align:center;
+    padding:20px;
+
+
+}
+.head p{
+    color:yellow;
+    text-align:center;
+    padding-bottom:20px;
+
+}
+
+
+/*=======================================*/
+/*========= navigation section.==========*/
+/*=======================================*/
+
+.nav{
+    height:38px;
+    border-left:1px solid red;
+    border-right:1px solid red;
+}
+.nav ul{
+    background-color:gray;
+    list-style-type:none;
+    min-height:38px;
+}
+.nav ul li{
+   
+    border-right:2px solid rgb(39, 32, 32);
+    border-left:2px solid rgb(75, 73, 73);
+    float:left;
+    background-color:rgb(59, 59, 59);
+    text-align:center;
+    border-radius:;
+    position:relative;
+}
+.nav ul li:first-child{
+    border-left:none;
+}
+.nav ul li:last-child{
+    border-right:none
+}
+.nav ul li a {
+    text-decoration: none;
+    color:white;
+    display: block;
+    width:136px;
+    padding:10px;
+   
+}
+.nav ul li a:hover{
+    background:linear-gradient(yellow,white,orange,yellow);
+    color: rgb(8, 5, 172);
+    transition: 1s all ease;
+    border-radius:10px;
+
+}
+.nav ul li ul{
+    position:absolute;
+    left:-9999999px;
+}
+.nav ul li:hover ul{
+    left:0;
+    z-index:999;
+    transition:1s all ease;
+    border-left:1px solid yellow;
+    border-right:1px solid yellow;
+}
+.nav ul li ul li {
+    border-left:none;
+    border-right:none;
+    border-top:1px solid black;
+    border-bottom:1px solid gray;
+    position:relative;
+}
+.nav ul li ul li ul{
+    
+    margin-top:0px;
+    position:absolute;
+    top:-9999999px;
+    padding-top:0px;
+}
+.nav ul li ul li ul li:last-child{
+    border-bottom:1px solid yellow;
+}
+.nav ul li ul li:hover ul{
+    top:0;
+    left:156px;
+}
+.nav-bg{
+    background-color:rgb(59, 59, 59);
+    border-bottom:5px solid yellow;
+}
+
+
+/*============================================*/
+/*=============== slide section ==============*/
+/*============================================*/
+
+#slide{
+    width:958px;
+    border-left:1px solid yellow;
+    border-right:1px solid yellow;
+}
+.slider-bg{
+    background-color:gray;
+}
+
+/*============================================*/
+/*=============== content section ============*/
+/*============================================*/
+
+.content-bg{
+    background-color:lightgreen;
+}
+.content{
+    width:956px;
+    border-left:2px solid gray;
+    border-right:2px solid gray;
+    background-color:lightgreen;
+    overflow:hidden;
+    
+}
+.main-content{
+    width:616px;
+    border:;
+    margin:20px;
+    float:left;
+}
+.main-article{
+    border-bottom:2px solid rgba(255, 255, 255, 0.671);
+}
+.main-article p{
+    color:green;
+    text-align:justify;
+    padding:10px;
+}
+.main-article p a{
+    text-decoration:none;
+    color:blueviolet;
+}
+.main-article h2{
+    color:rgba(136, 25, 6, 0.884);
+    text-align:center;
+    margin:25px 15px 15px 20px;
+}
+.image{
+    margin:10px;
+
+}
+.image img{
+    width:200px;
+    border:5px solid gray;
+    float:left;
+    margin:10px;
+    box-shadow:;
+}
+.image fig-cap{
+
+}
+
+/*============================================*/
+/*=============== aside section ==============*/
+/*============================================*/
+
+.aside{
+    float:right;
+    width:290px;
+    margin:5px
+}
+.aside h2{
+    text-align:center;
+    margin:30px 20px 10px 20px;
+    color:brown;
+}
+.aside ul{
+    list-style-type:square;
+    color:green;
+    margin:10px;
+}
+.aside ul li{
+    padding:7px 0px 5px 7px;
+    border-bottom:1px solid gray;
+    color:
+}
+.aside ul li a{
+    text-decoration:none;
+    color:black;
+}
+
+/*============================================*/
+/*=============== footer section =============*/
+/*============================================*/
+
+.footer-bg{
+    background-color:rgb(63, 62, 62);
+}
+.footer{
+    width:957px;
+    text-align:center;
+    background-color:rgb(63, 62, 62);
+    padding:20px 0px 20px 0px;
+    border-left:2px solid rgb(255, 153, 0);
+    border-right:2px solid rgb(255, 153, 0);
+    color:white;
+}
+.foot{
+
+}
